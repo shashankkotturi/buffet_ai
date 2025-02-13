@@ -1,0 +1,13 @@
+{
+    "exchange": "YHD",
+    "quoteType": "MUTUALFUND",
+    "symbol": "MDA",
+    "underlyingSymbol": "MDA",
+    "shortName": "MACDONALD DETTWILER & ASSOCIATE",
+    "timeZoneFullName": "America/New_York",
+    "timeZoneShortName": "EST",
+    "uuid": "101817e2-3304-3987-baad-aba1e5577909",
+    "gmtOffSetMilliseconds": -18000000,
+    "maxAge": 86400,
+    "trailingPegRatio": null
+}
