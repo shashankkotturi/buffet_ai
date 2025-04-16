@@ -11,7 +11,7 @@ def get_stock_data(ticker):
     info = stock.info
 
     financials = stock.quarterly_financials
-    print(financials)
+    # print(financials)
 
     operating_income = financials.loc['Operating Income'].iloc[:4].sum() if 'Operating Income' in financials.index else financials.loc['Net Income'].iloc[:4].sum()
 
@@ -79,7 +79,7 @@ def calculate_intrinsic_value(financials, growth_rate):
     """Calculates the intrinsic value of the stock using Buffett’s principles."""
     ev = financials["enterprise_value"]
     oe = financials["owners_earnings"]
-    print(oe)
+    # print(oe)
     shares = financials["shares_outstanding"]
 
     if shares == 0:
